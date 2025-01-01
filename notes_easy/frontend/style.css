@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/images/sticker.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  header h3 {
+    text-align: right;
+    color: yellow;
+    border: brown;
+  } 
+
+
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #notesDisplay {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 200px;
+    overflow-y: auto;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
